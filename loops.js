@@ -28,4 +28,4 @@ function maybeTrue() {
  
 do {
   console.log(array.pop() > 0)
-} while (doWhileLoop());
+} while (doWhileLoop())
