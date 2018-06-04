@@ -40,13 +40,11 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    
+    console.log(array.pop())
   }
-   console.log(array.pop())
   while (maybeTrue() || array.length == 0) {
-   
-    
   }
+  return array
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
