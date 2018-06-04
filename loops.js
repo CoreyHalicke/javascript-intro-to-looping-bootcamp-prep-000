@@ -11,6 +11,12 @@ function forLoop (array) {
   return array
 }
 
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n)
@@ -22,6 +28,11 @@ function whileLoop(n) {
 }
 
 
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 function maybeTrue() {
   return Math.random() >= 0.5
 }
@@ -29,3 +40,9 @@ function maybeTrue() {
 do {
   console.log(array.pop() > 0)
 } while (doWhileLoop())
+
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
