@@ -39,9 +39,12 @@ function maybeTrue() {
  
 
 function doWhileLoop(array) {
-  
+  do {
+    
+  }
+   console.log(array.pop())
   while (maybeTrue() || array.length == 0) {
-    console.log(array.pop())
+   
     
   }
 }
