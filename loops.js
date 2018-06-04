@@ -28,5 +28,5 @@ function doWhileLoop(array) {
 }
  
 do {
-  console.log(array.pop())
+  console.log(array.pop() > 0)
 } while (doWhileLoop());
