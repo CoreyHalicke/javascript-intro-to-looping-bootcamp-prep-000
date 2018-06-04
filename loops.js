@@ -21,6 +21,8 @@ function whileLoop(n) {
   return n
 }
 
+
+
 function doWhileLoop(array) {
   return Math.random() >= 0.5
 }
@@ -28,5 +30,3 @@ function doWhileLoop(array) {
 do {
   console.log(false)
 } while (doWhileLoop());
-
-
