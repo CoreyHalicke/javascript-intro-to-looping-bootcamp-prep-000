@@ -39,7 +39,7 @@ function maybeTrue() {
  
 
 function doWhileLoop(array) {
-  while () {
+  while (maybeTrue() || ) {
     
   }
 }
