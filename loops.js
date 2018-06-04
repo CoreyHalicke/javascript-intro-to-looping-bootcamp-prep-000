@@ -26,7 +26,7 @@ function doWhileLoop(array) {
 }
  
 do {
-  console.log(array)
+  console.log(false)
 } while (doWhileLoop());
 
 
