@@ -28,5 +28,5 @@ function doWhileLoop(array) {
 }
  
 do {
-  console.log(false)
-} while (doWhileLoop());
+  console.log('doo-bee-doo-bee-doo')
+} while (maybeTrue());
